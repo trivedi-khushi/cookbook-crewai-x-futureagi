@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "research-assistant"
+version = "0.1.0"
+description = "CrewAI research assistant project"
+authors = [{ name = "Khushi Trivedi" }]
+dependencies = [
+    "crewai",
+    "futureagi",
+    "requests",
+    "python-dotenv"
+]

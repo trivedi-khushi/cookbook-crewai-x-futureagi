@@ -1,0 +1,7 @@
+research_task:
+  description: >
+    Conduct thorough research on {topic}. Gather the most relevant information.
+    Avoid hallucinating unsupported facts. Year is 2025.
+  expected_output: >
+    A clear bullet-point list of the 5–10 most relevant facts about {topic}.
+  agent: researcher
